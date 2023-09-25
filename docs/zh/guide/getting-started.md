@@ -116,7 +116,7 @@ Note container
 ::: tip
 Tip container
 :::
-···
+
 ::: warning
 Warning container
 :::
