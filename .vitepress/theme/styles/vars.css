@@ -117,24 +117,28 @@
 
 @media (min-width: 640px) {
   .VPHero .text {
-    font-size: 34px;
+    margin-top: 24px !important;
+    font-size: 24px;
     line-height: 1.14;
   }
 
   .VPHero .image-src {
     width: 190px;
     height: 190px;
+    padding: 32px !important;
+
   }
 }
 
 @media (min-width: 960px) {
   .VPHero .text {
-    font-size: 40px;
+    margin-top: 24px !important;
     line-height: 1.14;
   }
 
   .VPHero .image-src {
     width: 240px;
+    padding: 32px !important;
     height: 240px;
   }
 }

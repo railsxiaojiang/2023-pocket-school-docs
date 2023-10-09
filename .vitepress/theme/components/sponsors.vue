@@ -3,46 +3,9 @@ import { VPHomeSponsors } from 'vitepress/theme'
 </script>
 
 <template>
-  <div class="sponsor-topbar">💖 Sponsors</div>
+  <div class="sponsor-topbar">💡 技术支持</div>
   <div class="sponsor-list">
-    <a
-      class="sponsor-item"
-      href="https://intellibar.app/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img src="../assets/intellibar.webp" />
-    </a>
-  </div>
-  <div class="user-topbar">👨‍💻‍ Users</div>
-  <div class="user-list">
-    <a
-      class="user-item"
-      href="https://polypane.app/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img src="../assets/polypane.webp" />
-    </a>
-  </div>
-  <div class="sponsor-desc">Electron⚡️Vite is free and open source, made possible by wonderful sponsors.</div>
-  <div class="action">
-    <a
-      class="sponsor"
-      href="https://github.com/sponsors/electron-vite"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Sponsor Electron⚡️Vite
-    </a>
-    <a
-      class="sponsor"
-      href="https://github.com/sponsors/caoxiemeihao"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Sponsor 草鞋没号
-    </a>
+
   </div>
 </template>
 

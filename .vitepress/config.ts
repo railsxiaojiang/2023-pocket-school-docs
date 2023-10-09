@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Electron⚡️Vite",
+  title: "更新云",
   description: "Creating desktop programs using Electron and vite",
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/electron-vite.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/electron-vite.png' }],
     ['link', { rel: 'icon', type: 'image/png', href: 'electron-vite.png' }],
 
     [
@@ -19,74 +19,58 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/electron-vite.svg',
+    logo: '/electron-vite.png',
     nav: [
-      { text: 'Guide', link: '/guide/why-electron-vite' },
-      {
-        text: 'Examples',
-        link: 'https://github.com/caoxiemeihao/electron-vite-samples',
-      },
-      {
-        text: 'Template', items: [
-          {
-            text: 'electron-vite-vue',
-            link: 'https://github.com/electron-vite/electron-vite-vue'
-          },
-          {
-            text: 'electron-vite-react',
-            link: 'https://github.com/electron-vite/electron-vite-react'
-          },
-        ],
-      },
+      { text: '产品文档', link: '/guide/why-electron-vite' },
+      { text: '技术文档', link: '/faq/electron-forge' },
+      { text: 'FAQ', link: '/faq/electron-forge' },
+      { text: '产品日志', link: '/guide/why-electron-vite' },
     ],
     sidebar: [
       {
-        text: 'Guide',
+        text: '产品文档',
         collapsed: false,
         items: [
           { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
-          { text: 'Getting Started', link: '/guide/getting-started' },
-          { text: 'Features', link: '/guide/features' },
-          { text: 'Core Plugins', link: '/guide/core-plugins' },
-          { text: 'C/C++ Addons', link: '/guide/cpp-addons' },
-          { text: 'Dependency Pre-Bundling', link: '/guide/dependency-pre-bundling' },
-          { text: 'Preload Code Not Split', link: '/guide/preload-not-split' },
-          { text: 'Not Bundle', link: '/guide/not-bundle' },
-          { text: 'Env Variables', link: '/guide/env-variables' },
-          { text: 'Static Resource', link: '/guide/static-resource' },
-          { text: 'Templates', link: '/guide/templates' },
-          { text: 'Examples 🚀', link: '/guide/examples' },
         ],
       },
-      /* {
-        text: 'Build',
-        collapsed: false,
+
+      {
+        text: '架构文档',
+        collapsed: true,
         items: [
-          { text: 'Electron Builder', link: '/build/electron-builder' },
+          { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
         ],
-      }, */
+      },
+
+      {
+        text: '开发文档',
+        collapsed: true,
+        items: [
+          { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
+        ],
+      },
+      {
+        text: '设计文档',
+        collapsed: true,
+        items: [
+          { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
+        ],
+      },
+
+
       {
         text: 'FAQ',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Electron Forge', link: '/faq/electron-forge' },
-          { text: 'dependencies vs devDependencies', link: '/faq/dependencies' },
-          { text: 'Debug', link: '/faq/debug' },
+
         ],
       },
     ],
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/sRqjYpEAUK' },
-      { icon: 'github', link: 'https://github.com/electron-vite' }
+      { icon: 'github', link: 'https://github.com/railsxiaojiang' }
     ],
-    // @ts-ignore
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: 'MHLM0MHOBZ',
-        apiKey: '9d4e29b666484f54feafbef08cac6754',
-        indexName: 'electron-viteio'
-      },
-    },
+
   },
 })
