@@ -1,0 +1,6 @@
+
+node_modules/
+node_modules/@babel/core/lib/config/partial.js.map
+node_modules/@babel/generator/lib/generators/typescript.js.map
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
