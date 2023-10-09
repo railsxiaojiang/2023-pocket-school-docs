@@ -1,6 +1,16 @@
+node_modules
+.DS_Store
+.algolia/.env
+.vitepress/dist/
 
-node_modules/
-node_modules/@babel/core/lib/config/partial.js.map
-node_modules/@babel/generator/lib/generators/typescript.js.map
-docs/.vuepress/.temp/
-docs/.vuepress/.cache/
+# Local Netlify folder
+.netlify
+
+package-lock.json
+pnpm-lock.yaml
+# yarn.lock
+
+# dist
+cache
+logs
+temp
