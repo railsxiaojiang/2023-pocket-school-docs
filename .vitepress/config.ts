@@ -18,7 +18,6 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: '/electron-vite.png',
     nav: [
       { text: '产品文档', link: '/guide/why-electron-vite' },
@@ -28,10 +27,31 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '产品文档',
+        text: '客户端说明',
         collapsed: false,
         items: [
-          { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
+          { text: '---客户端---', link: '/client/index' },
+          { text: '1.会话管理', link: '/client/conversation' },
+          { text: '2.聊天消息', link: '/client/chatroom' },
+          { text: '3.聊天设置', link: '/client/chat-setting' },
+          { text: '4.联系人管理', link: '/client/contact' },
+          { text: '5.网盘模块 ⭐️', link: '/client/driver' },
+
+        ],
+      },
+
+      {
+        text: '后台文档',
+        collapsed: false,
+        items: [
+          { text: '---后台端---', link: '/admin/index' },
+          { text: '1.会话管理', link: '/admin/conversation' },
+          { text: '2.聊天消息', link: '/admin/chatroom' },
+          { text: '3.聊天设置', link: '/admin/chat-setting' },
+          { text: '4.联系人管理', link: '/admin/contact' },
+
+          { text: '网盘模块', link: '/admin/driver' },
+
         ],
       },
 
