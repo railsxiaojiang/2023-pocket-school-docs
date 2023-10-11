@@ -56,10 +56,12 @@ export default defineConfig({
       },
 
       {
-        text: '架构文档',
+        text: '后端架构',
         collapsed: true,
         items: [
+          { text: 'Member Action的设计和使用', link: '/backend/member-action' },
           { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
+
         ],
       },
 
