@@ -5,8 +5,8 @@
 
 模块说明
 
-1. 用户（家长，老师，学生）跟进手机号登录
-2. 查询已经被学校登记的账号
+1. 用户（家长，老师，学生）使用手机号登录
+2. 查询帐号是否被学校登记，登记之后可进行登录
 3. 使用账号作为身份登录
 
 #### 流程示意
@@ -14,12 +14,21 @@
 ### 手机端
 
 
-![alt text](/public/client/session/login.png)
+![alt text](/public/client/session/login_app.jpg)
 
 
 ### 电脑端
 
-![alt text](/public/client/session/login.png)
+![alt text](/public/client/session/login_client.jpg)
 
+
+## 功能清单
+| 序号 | 功能 | 版本 |
+|-------|-------|-------|
+| 1 | 支持手机号 + 短信验证登录 | v2.5.0 |
+| 2 | 支持语言切换 | v2.5.0 |
+| 3 | 关于更新云文档说明 | v2.5.0 |
 ## 其他状态说明
+
+
 
