@@ -17,6 +17,7 @@ export default defineConfig({
     lineNumbers: true,
   },
 
+
   themeConfig: {
     logo: '/electron-vite.png',
     nav: [
@@ -31,6 +32,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '---客户端---', link: '/client/index' },
+          { text: '0.登录模块', link: '/client/session' },
           { text: '1.会话管理', link: '/client/conversation' },
           { text: '2.聊天消息', link: '/client/chatroom' },
           { text: '3.聊天设置', link: '/client/chat-setting' },
