@@ -7,7 +7,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/electron-vite.png' }],
     ['link', { rel: 'icon', type: 'image/png', href: 'electron-vite.png' }],
-
     [
       'meta',
       { name: 'electron-vite', content: 'Creating desktop programs using Electron and vite' },
@@ -21,12 +20,29 @@ export default defineConfig({
   themeConfig: {
     logo: '/electron-vite.png',
     nav: [
-      { text: '产品文档', link: '/guide/why-electron-vite' },
-      { text: '技术文档', link: '/faq/electron-forge' },
+      { text: '解决方案', link: '/guide/why-electron-vite' },
+      { text: '产品说明', link: '/guide/why-electron-vite' },
       { text: 'FAQ', link: '/faq/electron-forge' },
       { text: '产品日志', link: '/guide/why-electron-vite' },
     ],
     sidebar: [
+      {
+        text: '解决方案',
+        collapsed: false,
+        items: [
+          { text: '多国语家校互通', link: '/client/index' },
+          { text: '学生评估', link: '/client/driver' },
+          { text: '作业管理', link: '/client/index' },
+          { text: '通知回执', link: '/client/conversation' },
+          { text: '校车服务', link: '/client/chatroom' },
+          { text: '课后班报名', link: '/client/chat-setting' },
+          { text: '校餐管理', link: '/client/driver' },
+          { text: '校友圈管理', link: '/client/driver' },
+          { text: '办公OA', link: '/client/driver' },
+
+
+        ],
+      },
       {
         text: '客户端说明',
         collapsed: false,
@@ -56,6 +72,7 @@ export default defineConfig({
 
         ],
       },
+
 
       {
         text: '后端架构',
