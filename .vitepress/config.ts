@@ -26,23 +26,23 @@ export default defineConfig({
       { text: '产品日志', link: '/guide/why-electron-vite' },
     ],
     sidebar: [
-      {
-        text: '解决方案',
-        collapsed: false,
-        items: [
-          { text: '多国语家校互通', link: '/client/index' },
-          { text: '学生评估', link: '/client/driver' },
-          { text: '作业管理', link: '/client/index' },
-          { text: '通知回执', link: '/client/conversation' },
-          { text: '校车服务', link: '/client/chatroom' },
-          { text: '课后班报名', link: '/client/chat-setting' },
-          { text: '校餐管理', link: '/client/driver' },
-          { text: '校友圈管理', link: '/client/driver' },
-          { text: '办公OA', link: '/client/driver' },
+      // {
+      //   text: '解决方案',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '多国语家校互通', link: '/client/index' },
+      //     { text: '学生评估', link: '/client/driver' },
+      //     { text: '作业管理', link: '/client/index' },
+      //     { text: '通知回执', link: '/client/conversation' },
+      //     { text: '校车服务', link: '/client/chatroom' },
+      //     { text: '课后班报名', link: '/client/chat-setting' },
+      //     { text: '校餐管理', link: '/client/driver' },
+      //     { text: '校友圈管理', link: '/client/driver' },
+      //     { text: '办公OA', link: '/client/driver' },
 
 
-        ],
-      },
+      //   ],
+      // },
       {
         text: '客户端说明',
         collapsed: false,
@@ -78,8 +78,8 @@ export default defineConfig({
         text: '后端架构',
         collapsed: true,
         items: [
-          { text: 'Member Action的设计和使用', link: '/backend/member-action' },
-          { text: 'Why Electron⚡️Vite', link: '/guide/why-electron-vite' },
+          { text: '1.Member Action的设计和使用', link: '/backend/member-action' },
+          { text: '2. Socket 通讯', link: '/backend/socket' },
 
         ],
       },
