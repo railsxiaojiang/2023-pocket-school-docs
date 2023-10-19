@@ -45,6 +45,7 @@ token 令牌
     "id": 1,
     "kype": "text", # text, video, voice, file, image, location, custom, forward, quote, system, chatgpt,
     "creator": "usermember",
+    "chatroom": {},
     "client_uuid": "20230123-655555",
     "is_revoked": false,
     "content": "你今天真傻呀？",
