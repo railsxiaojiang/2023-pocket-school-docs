@@ -71,6 +71,8 @@ export default defineConfig({
         text: '后端架构',
         collapsed: true,
         items: [
+          { text: 'Api接口规划', link: '/backend/api' },
+
           { text: '1.Member Action的设计和使用', link: '/backend/member-action' },
           { text: '2. Socket 通讯', link: '/backend/socket' },
 
