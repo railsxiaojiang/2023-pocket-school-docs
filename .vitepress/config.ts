@@ -62,14 +62,7 @@ export default defineConfig({
         text: '后台文档',
         collapsed: false,
         items: [
-          { text: '---后台端---', link: '/admin/index' },
-          { text: '1.会话管理', link: '/admin/conversation' },
-          { text: '2.聊天消息', link: '/admin/chatroom' },
-          { text: '3.聊天设置', link: '/admin/chat-setting' },
-          { text: '4.联系人管理', link: '/admin/contact' },
-
-          { text: '网盘模块', link: '/admin/driver' },
-
+          { text: '---后台模块规划---', link: '/admin/index' },
         ],
       },
 
