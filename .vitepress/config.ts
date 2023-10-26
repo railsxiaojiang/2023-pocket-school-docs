@@ -26,23 +26,7 @@ export default defineConfig({
       { text: '产品日志', link: '/guide/why-electron-vite' },
     ],
     sidebar: [
-      // {
-      //   text: '解决方案',
-      //   collapsed: false,
-      //   items: [
-      //     { text: '多国语家校互通', link: '/client/index' },
-      //     { text: '学生评估', link: '/client/driver' },
-      //     { text: '作业管理', link: '/client/index' },
-      //     { text: '通知回执', link: '/client/conversation' },
-      //     { text: '校车服务', link: '/client/chatroom' },
-      //     { text: '课后班报名', link: '/client/chat-setting' },
-      //     { text: '校餐管理', link: '/client/driver' },
-      //     { text: '校友圈管理', link: '/client/driver' },
-      //     { text: '办公OA', link: '/client/driver' },
 
-
-      //   ],
-      // },
       {
         text: '客户端说明',
         collapsed: false,
@@ -63,9 +47,20 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '---后台模块规划---', link: '/admin/index' },
+          { text: 'Member 学生 老师', link: '/admin/member' },
+
         ],
       },
 
+            {
+        text: '接口字段',
+        collapsed: false,
+        items: [
+          { text: '1.用户，档案，公司体系', link: '/json_rules/user' },
+          { text: '2.聊天体系', link: '/json_rules/chat' },
+
+        ],
+      },
 
       {
         text: '后端架构',
