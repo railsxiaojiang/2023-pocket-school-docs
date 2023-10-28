@@ -56,7 +56,8 @@ export default defineConfig({
         text: '接口字段',
         collapsed: false,
         items: [
-          { text: '1.用户，档案，公司体系', link: '/json_rules/user' },
+          { text: '0.接口大全说明', link: '/apis/index' },
+          { text: '1.用户，档案，公司体系', link: '/apis/user' },
           { text: '2.聊天体系', link: '/json_rules/chat' },
 
         ],
